@@ -288,6 +288,9 @@ and then assign it to your Task.
     Create a TextFile programmatically, and assign it to Task: 
 
     .. code-block:: python
+        from aeneas.task import Task
+        from aeneas.textfile import TextFile, TextFragment
+        from aeneas.language import Language
 
         task = Task()
         textfile = TextFile()
